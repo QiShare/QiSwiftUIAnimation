@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE71B2DA2385161900B1A987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B2D92385161900B1A987 /* AppDelegate.swift */; };
+		EE71B2DC2385161900B1A987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B2DB2385161900B1A987 /* SceneDelegate.swift */; };
+		EE71B2E12385161900B1A987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE71B2DF2385161900B1A987 /* Main.storyboard */; };
+		EE71B2E32385161A00B1A987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE71B2E22385161A00B1A987 /* Assets.xcassets */; };
+		EE71B2E62385161A00B1A987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE71B2E42385161A00B1A987 /* LaunchScreen.storyboard */; };
+		EE71B32F23851D8F00B1A987 /* QiRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B32E23851D8F00B1A987 /* QiRootView.swift */; };
+		EE71B3312385225A00B1A987 /* QiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B3302385225A00B1A987 /* QiDetailView.swift */; };
+		EE71B33723852B0800B1A987 /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33323852B0800B1A987 /* ListDetail.swift */; };
+		EE71B33823852B0800B1A987 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33423852B0800B1A987 /* ListRow.swift */; };
+		EE71B33923852B0800B1A987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33523852B0800B1A987 /* ContentView.swift */; };
+		EE71B33A23852B0800B1A987 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33623852B0800B1A987 /* Symbols.swift */; };
+		EE71B33C238532EB00B1A987 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33B238532EB00B1A987 /* GraphCapsule.swift */; };
+		EE71B33E238541E700B1A987 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71B33D238541E700B1A987 /* Badge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE71B2D62385161900B1A987 /* QiSwiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiSwiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE71B2D92385161900B1A987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE71B2DB2385161900B1A987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE71B2E02385161900B1A987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE71B2E22385161A00B1A987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE71B2E52385161A00B1A987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE71B2E72385161A00B1A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE71B32E23851D8F00B1A987 /* QiRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiRootView.swift; sourceTree = "<group>"; };
+		EE71B3302385225A00B1A987 /* QiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiDetailView.swift; sourceTree = "<group>"; };
+		EE71B33323852B0800B1A987 /* ListDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetail.swift; sourceTree = "<group>"; };
+		EE71B33423852B0800B1A987 /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		EE71B33523852B0800B1A987 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE71B33623852B0800B1A987 /* Symbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		EE71B33B238532EB00B1A987 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		EE71B33D238541E700B1A987 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE71B2D32385161900B1A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE71B2CD2385161900B1A987 = {
+			isa = PBXGroup;
+			children = (
+				EE71B2D82385161900B1A987 /* QiSwiftAnimation */,
+				EE71B2D72385161900B1A987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE71B2D72385161900B1A987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE71B2D62385161900B1A987 /* QiSwiftAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE71B2D82385161900B1A987 /* QiSwiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EE71B33F2385429C00B1A987 /* Badge */,
+				EE71B33223852AED00B1A987 /* BasicPage */,
+				EE71B2D92385161900B1A987 /* AppDelegate.swift */,
+				EE71B2DB2385161900B1A987 /* SceneDelegate.swift */,
+				EE71B3302385225A00B1A987 /* QiDetailView.swift */,
+				EE71B32E23851D8F00B1A987 /* QiRootView.swift */,
+				EE71B33B238532EB00B1A987 /* GraphCapsule.swift */,
+				EE71B2DF2385161900B1A987 /* Main.storyboard */,
+				EE71B2E22385161A00B1A987 /* Assets.xcassets */,
+				EE71B2E42385161A00B1A987 /* LaunchScreen.storyboard */,
+				EE71B2E72385161A00B1A987 /* Info.plist */,
+			);
+			path = QiSwiftAnimation;
+			sourceTree = "<group>";
+		};
+		EE71B33223852AED00B1A987 /* BasicPage */ = {
+			isa = PBXGroup;
+			children = (
+				EE71B33523852B0800B1A987 /* ContentView.swift */,
+				EE71B33323852B0800B1A987 /* ListDetail.swift */,
+				EE71B33423852B0800B1A987 /* ListRow.swift */,
+				EE71B33623852B0800B1A987 /* Symbols.swift */,
+			);
+			path = BasicPage;
+			sourceTree = "<group>";
+		};
+		EE71B33F2385429C00B1A987 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				EE71B33D238541E700B1A987 /* Badge.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE71B2D52385161900B1A987 /* QiSwiftAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE71B2EA2385161A00B1A987 /* Build configuration list for PBXNativeTarget "QiSwiftAnimation" */;
+			buildPhases = (
+				EE71B2D22385161900B1A987 /* Sources */,
+				EE71B2D32385161900B1A987 /* Frameworks */,
+				EE71B2D42385161900B1A987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiSwiftAnimation;
+			productName = QiSwiftAnimation;
+			productReference = EE71B2D62385161900B1A987 /* QiSwiftAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE71B2CE2385161900B1A987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = WYW;
+				TargetAttributes = {
+					EE71B2D52385161900B1A987 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EE71B2D12385161900B1A987 /* Build configuration list for PBXProject "QiSwiftAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE71B2CD2385161900B1A987;
+			productRefGroup = EE71B2D72385161900B1A987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE71B2D52385161900B1A987 /* QiSwiftAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE71B2D42385161900B1A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE71B2E62385161A00B1A987 /* LaunchScreen.storyboard in Resources */,
+				EE71B2E32385161A00B1A987 /* Assets.xcassets in Resources */,
+				EE71B2E12385161900B1A987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE71B2D22385161900B1A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE71B33C238532EB00B1A987 /* GraphCapsule.swift in Sources */,
+				EE71B33E238541E700B1A987 /* Badge.swift in Sources */,
+				EE71B33A23852B0800B1A987 /* Symbols.swift in Sources */,
+				EE71B32F23851D8F00B1A987 /* QiRootView.swift in Sources */,
+				EE71B33923852B0800B1A987 /* ContentView.swift in Sources */,
+				EE71B2DA2385161900B1A987 /* AppDelegate.swift in Sources */,
+				EE71B2DC2385161900B1A987 /* SceneDelegate.swift in Sources */,
+				EE71B33723852B0800B1A987 /* ListDetail.swift in Sources */,
+				EE71B33823852B0800B1A987 /* ListRow.swift in Sources */,
+				EE71B3312385225A00B1A987 /* QiDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE71B2DF2385161900B1A987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE71B2E02385161900B1A987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE71B2E42385161A00B1A987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE71B2E52385161A00B1A987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE71B2E82385161A00B1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE71B2E92385161A00B1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE71B2EB2385161A00B1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiSwiftAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE71B2EC2385161A00B1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiSwiftAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE71B2D12385161900B1A987 /* Build configuration list for PBXProject "QiSwiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE71B2E82385161A00B1A987 /* Debug */,
+				EE71B2E92385161A00B1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE71B2EA2385161A00B1A987 /* Build configuration list for PBXNativeTarget "QiSwiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE71B2EB2385161A00B1A987 /* Debug */,
+				EE71B2EC2385161A00B1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE71B2CE2385161900B1A987 /* Project object */;
+}
